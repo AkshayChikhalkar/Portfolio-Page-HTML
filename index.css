@@ -55,6 +55,7 @@
 }
 .home-link2 {
   margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
 }
 .home-burger-menu {
   display: none;
