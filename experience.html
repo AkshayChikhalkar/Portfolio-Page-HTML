@@ -75,67 +75,83 @@
 
       <div class="experience-container">
         <div data-role="Header" class="experience-navbar-container">
-          <div class="experience-navbar">
+          <header data-thq="thq-navbar" class="experience-navbar-interactive">
             <div class="experience-container01">
-              <img
-                alt="image"
-                src="public/logo-200h.png"
-                class="experience-image"
-              />
-            </div>
-            <div class="experience-links-container">
-              <span class="experience-link Navbar-Link">About</span>
-              <a href="experience.html" class="experience-link1 Navbar-Link">
-                Experience
+              <a href="index.html" class="experience-navlink">
+                <img
+                  alt="image"
+                  src="public/logo-200h.png"
+                  class="experience-image"
+                />
               </a>
-              <a href="hobbies.html" class="experience-link2 Navbar-Link">
-                Hobbies
-              </a>
-              <span class="Navbar-Link">Contact</span>
             </div>
-            <div data-role="BurgerMenu" class="experience-burger-menu">
-              <svg viewBox="0 0 1024 1024" class="experience-icon">
-                <path
-                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                ></path>
-              </svg>
+            <div data-thq="thq-navbar-nav" class="experience-desktop-menu">
+              <nav class="experience-links">
+                <span class="experience-text Navbar-Link">About</span>
+                <a
+                  href="experience.html"
+                  class="experience-navlink1 Navbar-Link"
+                >
+                  Experience
+                </a>
+                <a href="hobbies.html" class="experience-navlink2 Navbar-Link">
+                  Hobbies
+                </a>
+                <span class="experience-text001 Navbar-Link">Contact</span>
+              </nav>
             </div>
-            <div data-role="MobileMenu" class="experience-mobile-menu">
-              <div class="experience-container02">
-                <span class="Card-Heading experience-heading">Logo</span>
-                <div data-role="CloseMobileMenu" class="experience-close-menu">
-                  <svg viewBox="0 0 1024 1024" class="experience-icon02">
-                    <path
-                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                    ></path>
-                  </svg>
+            <div data-thq="thq-burger-menu" class="experience-burger-menu">
+              <div data-role="BurgerMenu" class="experience-burger-menu1">
+                <svg viewBox="0 0 1024 1024" class="experience-icon">
+                  <path
+                    d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div data-thq="thq-mobile-menu" class="experience-mobile-menu">
+              <div class="experience-nav">
+                <div class="experience-top">
+                  <a href="index.html" class="experience-navlink3">
+                    <img
+                      alt="image"
+                      src="public/logo-200h.png"
+                      class="experience-image1"
+                    />
+                  </a>
+                  <div data-thq="thq-close-menu" class="experience-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="experience-icon02">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
-              </div>
-              <div class="experience-links-container1">
-                <span class="experience-link4">About</span>
-                <span class="experience-link5 Navbar-Link">Experience</span>
-                <span class="experience-link6 Navbar-Link">Portofolio</span>
-                <span class="Navbar-Link">Contact</span>
+                <nav class="experience-links1">
+                  <span class="experience-text002 Navbar-Link">About</span>
+                  <a
+                    href="experience.html"
+                    class="experience-navlink4 Navbar-Link"
+                  >
+                    Experience
+                  </a>
+                  <a
+                    href="hobbies.html"
+                    class="experience-navlink5 Navbar-Link"
+                  >
+                    Hobbies
+                  </a>
+                  <span class="experience-text003 Navbar-Link">Contact</span>
+                </nav>
               </div>
             </div>
-          </div>
+          </header>
         </div>
         <div class="experience-section-separator"></div>
         <div class="experience-section-separator1"></div>
-        <div class="experience-container03">
+        <div class="experience-container02">
           <div class="experience-hero">
             <div class="experience-hero-text-container">
-              <h1 class="experience-heading1 Section-Heading">
-                A DevOps Engineer and Tech Geek
-              </h1>
-              <span class="experience-text Section-Text">
-                <span>Technology geek since 2005!</span>
-                <br />
-                <span>
-                  Over 7+ years of experience in requirement engineering,
-                  planning, implementing and evaluating projects.
-                </span>
-              </span>
               <div class="experience-cta-btn-container">
                 <button class="experience-cta-btn Anchor button">
                   <span class="experience-text004">MY WORK</span>
@@ -144,13 +160,6 @@
                   ABOUT ME
                 </button>
               </div>
-            </div>
-            <div class="experience-container04">
-              <img
-                alt="image"
-                src="public/removebg%20preview-600h.png"
-                class="experience-image1"
-              />
             </div>
           </div>
         </div>
@@ -164,7 +173,7 @@
             </span>
           </div>
           <div class="experience-about-1">
-            <div class="experience-container05">
+            <div class="experience-container03">
               <svg viewBox="0 0 1024 1024" class="experience-icon04">
                 <path
                   d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -175,7 +184,7 @@
                 <br class="Card-Text" />
               </span>
             </div>
-            <div class="experience-container06">
+            <div class="experience-container04">
               <svg viewBox="0 0 1024 1024" class="experience-icon06">
                 <path
                   d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -185,7 +194,7 @@
                 Experienced with OOP, Software Architecture (MVVM and MVC).
               </span>
             </div>
-            <div class="experience-container07">
+            <div class="experience-container05">
               <svg viewBox="0 0 1024 1024" class="experience-icon08">
                 <path
                   d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -199,7 +208,7 @@
                 <br class="Card-Text" />
               </span>
             </div>
-            <div class="experience-container08">
+            <div class="experience-container06">
               <svg viewBox="0 0 1024 1024" class="experience-icon10">
                 <path
                   d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -213,7 +222,7 @@
                 <br class="Card-Text" />
               </span>
             </div>
-            <div class="experience-container09">
+            <div class="experience-container07">
               <svg viewBox="0 0 1024 1024" class="experience-icon12">
                 <path
                   d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -224,7 +233,7 @@
                 containerization and management.
               </span>
             </div>
-            <div class="experience-container10">
+            <div class="experience-container08">
               <svg viewBox="0 0 1024 1024" class="experience-icon14">
                 <path
                   d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -248,7 +257,7 @@
           </div>
           <div class="experience-content-container">
             <div class="experience-about-11">
-              <div class="experience-container11">
+              <div class="experience-container09">
                 <img
                   alt="image"
                   src="public/d3-200h.png"
@@ -264,7 +273,7 @@
                   <br />
                 </span>
               </div>
-              <div class="experience-container12">
+              <div class="experience-container10">
                 <svg viewBox="0 0 1024 1024" class="experience-icon16">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -274,7 +283,7 @@
                   Orchestrating cloud infrastructure management and deployment
                 </span>
               </div>
-              <div class="experience-container13">
+              <div class="experience-container11">
                 <svg viewBox="0 0 1024 1024" class="experience-icon18">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -288,7 +297,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container14">
+              <div class="experience-container12">
                 <svg viewBox="0 0 1024 1024" class="experience-icon20">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -302,7 +311,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container15">
+              <div class="experience-container13">
                 <svg viewBox="0 0 1024 1024" class="experience-icon22">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -315,7 +324,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container16">
+              <div class="experience-container14">
                 <svg viewBox="0 0 1024 1024" class="experience-icon24">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -331,7 +340,7 @@
               </div>
             </div>
             <div class="experience-about-12">
-              <div class="experience-container17">
+              <div class="experience-container15">
                 <img
                   alt="image"
                   src="public/jd-200h.png"
@@ -347,7 +356,7 @@
                   <span class="Card-Text"></span>
                 </span>
               </div>
-              <div class="experience-container18">
+              <div class="experience-container16">
                 <svg viewBox="0 0 1024 1024" class="experience-icon26">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -363,7 +372,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container19">
+              <div class="experience-container17">
                 <svg viewBox="0 0 1024 1024" class="experience-icon28">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -373,7 +382,7 @@
                   Consultant, John Deere Global Procurement (JDGP) Team
                 </span>
               </div>
-              <div class="experience-container20">
+              <div class="experience-container18">
                 <svg viewBox="0 0 1024 1024" class="experience-icon30">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -386,7 +395,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container21">
+              <div class="experience-container19">
                 <svg viewBox="0 0 1024 1024" class="experience-icon32">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -400,7 +409,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container22">
+              <div class="experience-container20">
                 <svg viewBox="0 0 1024 1024" class="experience-icon34">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -411,7 +420,7 @@
                   specifications
                 </span>
               </div>
-              <div class="experience-container23">
+              <div class="experience-container21">
                 <svg viewBox="0 0 1024 1024" class="experience-icon36">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -427,7 +436,7 @@
               </div>
             </div>
             <div class="experience-about-13">
-              <div class="experience-container24">
+              <div class="experience-container22">
                 <img
                   alt="image"
                   src="public/tata-200h.png"
@@ -445,7 +454,7 @@
                   <span class="Card-Text"></span>
                 </span>
               </div>
-              <div class="experience-container25">
+              <div class="experience-container23">
                 <svg viewBox="0 0 1024 1024" class="experience-icon38">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -457,7 +466,7 @@
                   three-tiered MVVM architecture
                 </span>
               </div>
-              <div class="experience-container26">
+              <div class="experience-container24">
                 <svg viewBox="0 0 1024 1024" class="experience-icon40">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -471,7 +480,7 @@
                   <br class="Card-Text" />
                 </span>
               </div>
-              <div class="experience-container27">
+              <div class="experience-container25">
                 <svg viewBox="0 0 1024 1024" class="experience-icon42">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -482,7 +491,7 @@
                   GNSS simulators.
                 </span>
               </div>
-              <div class="experience-container28">
+              <div class="experience-container26">
                 <svg viewBox="0 0 1024 1024" class="experience-icon44">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -492,7 +501,7 @@
                   Implemented Web-API call Google-Map using MQTT protocol.
                 </span>
               </div>
-              <div class="experience-container29">
+              <div class="experience-container27">
                 <svg viewBox="0 0 1024 1024" class="experience-icon46">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -503,7 +512,7 @@
                   €55M.
                 </span>
               </div>
-              <div class="experience-container30">
+              <div class="experience-container28">
                 <svg viewBox="0 0 1024 1024" class="experience-icon48">
                   <path
                     d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
@@ -526,7 +535,7 @@
             </span>
           </div>
           <div class="experience-logo-container">
-            <div class="experience-container31">
+            <div class="experience-container29">
               <img
                 alt="image"
                 src="public/2538_r0lvie5jqya1ntmtmtk-400h.jpg"
@@ -544,7 +553,7 @@
                 <span class="Card-Text"></span>
               </span>
             </div>
-            <div class="experience-container32">
+            <div class="experience-container30">
               <img
                 alt="image"
                 src="public/star%20icon.svg"
@@ -563,7 +572,7 @@
                 <span class="Card-Text"></span>
               </span>
             </div>
-            <div class="experience-container33">
+            <div class="experience-container31">
               <img
                 alt="image"
                 src="public/award%20trophy%20icon-400h.png"
@@ -623,19 +632,19 @@
                 <span class="Section-Heading">Complex</span>
               </div>
               <div class="experience-card-content1">
-                <div class="experience-container34">
+                <div class="experience-container32">
                   <span class="Card-Text">Feature one</span>
                   <span class="experience-text114 Card-Text">TBD</span>
                 </div>
-                <div class="experience-container35">
+                <div class="experience-container33">
                   <span class="Card-Text">Feature two</span>
                   <span class="experience-text116 Card-Text">TBD</span>
                 </div>
-                <div class="experience-container36">
+                <div class="experience-container34">
                   <span class="Card-Text">Feature three</span>
                   <span class="experience-text118 Card-Text">UNLIMITED</span>
                 </div>
-                <div class="experience-container37">
+                <div class="experience-container35">
                   <span class="Card-Text">Feature four</span>
                   <span class="experience-text120 Card-Text">UNLIMITED</span>
                 </div>
@@ -648,19 +657,19 @@
                 <span class="Section-Heading">Professional</span>
               </div>
               <div class="experience-card-content2">
-                <div class="experience-container38">
+                <div class="experience-container36">
                   <span class="Card-Text">Feature one</span>
                   <span class="experience-text122 Card-Text">TBD</span>
                 </div>
-                <div class="experience-container39">
+                <div class="experience-container37">
                   <span class="Card-Text">Feature two</span>
                   <span class="experience-text124 Card-Text">TBD</span>
                 </div>
-                <div class="experience-container40">
+                <div class="experience-container38">
                   <span class="Card-Text">Feature three</span>
                   <span class="experience-text126 Card-Text">UNLIMITED</span>
                 </div>
-                <div class="experience-container41">
+                <div class="experience-container39">
                   <span class="Card-Text">Feature four</span>
                   <span class="experience-text128 Card-Text">UNLIMITED</span>
                 </div>
@@ -751,7 +760,7 @@
             src="public/default-img.svg"
             class="experience-image8"
           />
-          <div class="experience-container42">
+          <div class="experience-container40">
             <div class="experience-heading-container4">
               <h1 class="experience-text130 Section-Heading">
                 Get our guide to crafting digital products
