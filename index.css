@@ -1853,7 +1853,6 @@
     width: 100%;
   }
   .home-image03 {
-    height: auto;
     padding: 0px;
     align-self: flex-start;
     padding-top: var(--dl-space-space-unit);
@@ -1888,7 +1887,6 @@
   }
   .home-logo-container {
     align-self: center;
-    justify-content: center;
   }
   .home-image06 {
     margin-bottom: var(--dl-space-space-doubleunit);
