@@ -1700,6 +1700,11 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
+@media(max-width: 1600px) {
+  .experience-image {
+    padding-top: 0px;
+  }
+}
 @media(max-width: 991px) {
   .experience-heading {
     text-align: center;
