@@ -18,9 +18,9 @@
 }
 .timeline11-timeline-container {
   flex: 1;
-  width: auto;
   height: 100%;
   display: flex;
+  align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -231,6 +231,13 @@
 }
 .timeline11-text12 {
   text-align: right;
+}
+@media(max-width: 1600px) {
+  .timeline11-timeline-container {
+    width: auto;
+    align-self: stretch;
+    align-items: center;
+  }
 }
 @media(max-width: 1200px) {
   .timeline11-max-width {
