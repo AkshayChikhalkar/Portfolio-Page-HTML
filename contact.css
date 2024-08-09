@@ -70,6 +70,7 @@
   text-decoration: none;
 }
 .contact-navlink3 {
+  margin-right: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }

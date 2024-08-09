@@ -151,7 +151,6 @@
 }
 @media(max-width: 479px) {
   .gallery5-image2 {
-    height: 60%;
     max-height: 400px;
   }
 }

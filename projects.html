@@ -76,7 +76,7 @@
       <div class="projects-container">
         <div data-role="Header" class="projects-navbar-container">
           <header data-thq="thq-navbar" class="projects-navbar-interactive">
-            <div class="projects-container1">
+            <div>
               <a href="index.html" class="projects-navlink">
                 <img
                   alt="image"
@@ -87,14 +87,18 @@
             </div>
             <div data-thq="thq-navbar-nav" class="projects-desktop-menu">
               <nav class="projects-links">
-                <span class="projects-text Navbar-Link">About</span>
+                <span>About</span>
                 <a href="experience.html" class="projects-navlink1 Navbar-Link">
                   Experience
                 </a>
                 <a href="hobbies.html" class="projects-navlink2 Navbar-Link">
                   Hobbies
                 </a>
-                <span class="projects-text001 Navbar-Link">Contact</span>
+                <a href="hobbies.html" class="projects-navlink3">
+                  <span class="Navbar-Link projects-text001">Projects</span>
+                  <br />
+                </a>
+                <span class="projects-text003 Navbar-Link">Contact</span>
               </nav>
             </div>
             <div data-thq="thq-burger-menu" class="projects-burger-menu">
@@ -109,12 +113,8 @@
             <div data-thq="thq-mobile-menu" class="projects-mobile-menu">
               <div class="projects-nav">
                 <div class="projects-top">
-                  <a href="index.html" class="projects-navlink3">
-                    <img
-                      alt="image"
-                      src="public/logo-200h.png"
-                      class="projects-image1"
-                    />
+                  <a href="index.html" class="projects-navlink4">
+                    <img alt="image" src="public/logo-200h.png" />
                   </a>
                   <div data-thq="thq-close-menu" class="projects-close-menu">
                     <svg viewBox="0 0 1024 1024" class="projects-icon2">
@@ -125,17 +125,17 @@
                   </div>
                 </div>
                 <nav class="projects-links1">
-                  <span class="projects-text002 Navbar-Link">About</span>
+                  <span class="projects-text004 Navbar-Link">About</span>
                   <a
                     href="experience.html"
-                    class="projects-navlink4 Navbar-Link"
+                    class="projects-navlink5 Navbar-Link"
                   >
                     Experience
                   </a>
-                  <a href="hobbies.html" class="projects-navlink5 Navbar-Link">
+                  <a href="hobbies.html" class="projects-navlink6 Navbar-Link">
                     Hobbies
                   </a>
-                  <span class="projects-text003 Navbar-Link">Contact</span>
+                  <span class="projects-text005 Navbar-Link">Contact</span>
                 </nav>
               </div>
             </div>
@@ -143,124 +143,122 @@
         </div>
         <div class="projects-section-separator"></div>
         <div class="projects-section-separator1"></div>
-        <div class="projects-container2">
-          <div class="projects-project1">
-            <div class="projects-heading-container">
-              <h2 class="projects-text004 Section-Heading">
-                Professional Projects
-              </h2>
-            </div>
-            <div class="projects-about-1">
-              <span class="projects-text005">
-                <span class="projects-text006">Project Name</span>
-                <span class="projects-text007"></span>
-                <span class="projects-text008">– TCU Validation</span>
-                <br class="projects-text009" />
-                <br class="projects-text010" />
-                <span class="projects-text011">Role</span>
-                <span class="projects-text012">– EIS Software Developer</span>
-                <br class="projects-text013" />
-                <br class="projects-text014" />
-                <span class="projects-text015">Description</span>
-                <span class="projects-text016">
-                  : Telematics Control Unit is an electronic device and an
-                  integral part of the modern-day vehicle. It takes care of all
-                  the ECUs and vehicle communication. TCU Validation Tool
-                  automates the process of testing TCU functionality and Server
-                  in real-time. It collects CAN, and Debug logs and validates
-                  with TSP through the MQTT protocol.
-                </span>
-                <br class="projects-text017" />
-                <br class="projects-text018" />
-                <span class="projects-text019">Responsibilities</span>
-                <span class="projects-text020">:</span>
-                <br class="projects-text021" />
-                <br class="projects-text022" />
-                <span class="projects-text023">
-                  Responsible for analysis, design, implementation, and
-                  deployment of code.
-                </span>
-                <br class="projects-text024" />
-                <br class="projects-text025" />
-                <span class="projects-text026">
-                  Worked on ASE128 and HMAC encryption methods for TCU-TSP
-                  handshaking.
-                </span>
-                <br class="projects-text027" />
-                <br class="projects-text028" />
-                <span class="projects-text029">
-                  Implemented TCP/IP socket programming to access other
-                  simulators.
-                </span>
-                <br class="projects-text030" />
-                <br class="projects-text031" />
-                <span class="projects-text032">
-                  Implemented Web API call using MQTT protocol.
-                </span>
-                <br class="projects-text033" />
-                <br class="projects-text034" />
-                <span class="projects-text035">
-                  Designed and developed MySQL Server database.
-                </span>
-                <br class="projects-text036" />
-                <br class="projects-text037" />
-                <span class="projects-text038">
-                  Developed the installer for distributing the application
-                  across the users.
-                </span>
-                <br class="projects-text039" />
-                <br class="projects-text040" />
-                <span class="projects-text041">Environment</span>
-                <span class="projects-text042">
-                  : C#, WindowsForms, Visual Studio 2017, .Net Framework 4.5,
-                  MySQL Server 5.8, Windows 10, MQTT
-                </span>
-                <span></span>
+        <div class="projects-project">
+          <div class="projects-heading-container">
+            <h2 class="projects-text006 Section-Heading">
+              Professional Projects
+            </h2>
+          </div>
+          <div class="projects-about-1">
+            <span class="projects-text007">
+              <span class="projects-text008">Project Name</span>
+              <span class="projects-text009"></span>
+              <span class="projects-text010">– TCU Validation</span>
+              <br class="projects-text011" />
+              <br class="projects-text012" />
+              <span class="projects-text013">Role</span>
+              <span class="projects-text014">– EIS Software Developer</span>
+              <br class="projects-text015" />
+              <br class="projects-text016" />
+              <span class="projects-text017">Description</span>
+              <span class="projects-text018">
+                : Telematics Control Unit is an electronic device and an
+                integral part of the modern-day vehicle. It takes care of all
+                the ECUs and vehicle communication. TCU Validation Tool
+                automates the process of testing TCU functionality and Server in
+                real-time. It collects CAN, and Debug logs and validates with
+                TSP through the MQTT protocol.
               </span>
-            </div>
+              <br class="projects-text019" />
+              <br class="projects-text020" />
+              <span class="projects-text021">Responsibilities</span>
+              <span class="projects-text022">:</span>
+              <br class="projects-text023" />
+              <br class="projects-text024" />
+              <span class="projects-text025">
+                Responsible for analysis, design, implementation, and deployment
+                of code.
+              </span>
+              <br class="projects-text026" />
+              <br class="projects-text027" />
+              <span class="projects-text028">
+                Worked on ASE128 and HMAC encryption methods for TCU-TSP
+                handshaking.
+              </span>
+              <br class="projects-text029" />
+              <br class="projects-text030" />
+              <span class="projects-text031">
+                Implemented TCP/IP socket programming to access other
+                simulators.
+              </span>
+              <br class="projects-text032" />
+              <br class="projects-text033" />
+              <span class="projects-text034">
+                Implemented Web API call using MQTT protocol.
+              </span>
+              <br class="projects-text035" />
+              <br class="projects-text036" />
+              <span class="projects-text037">
+                Designed and developed MySQL Server database.
+              </span>
+              <br class="projects-text038" />
+              <br class="projects-text039" />
+              <span class="projects-text040">
+                Developed the installer for distributing the application across
+                the users.
+              </span>
+              <br class="projects-text041" />
+              <br class="projects-text042" />
+              <span class="projects-text043">Environment</span>
+              <span class="projects-text044">
+                : C#, WindowsForms, Visual Studio 2017, .Net Framework 4.5,
+                MySQL Server 5.8, Windows 10, MQTT
+              </span>
+              <span></span>
+            </span>
           </div>
         </div>
-        <div class="projects-container3">
+        <div>
           <div class="projects-project2">
             <div class="projects-about-11">
-              <span class="projects-text044">
-                <span class="projects-text045">Project Name</span>
+              <span class="projects-text046">
+                <span class="projects-text047">Project Name</span>
                 <span>– GNSS Automation</span>
                 <br />
                 <br />
                 <span></span>
-                <span class="projects-text050">Role</span>
+                <span class="projects-text052">Role</span>
                 <span>- EIS Software Developer</span>
-                <br class="projects-text052" />
-                <br class="projects-text053" />
-                <span class="projects-text054">Description</span>
+                <br class="projects-text054" />
+                <br class="projects-text055" />
+                <span class="projects-text056">Description</span>
                 <span>
                   : GNSS Automation Tool designed to pinpoint the location
                   coordinate provided by the GNSS simulator. This is possible
                   with the help of G-Map API available to use freely. It can
                   provide a complete trajectory respective to the NMEA file.
                 </span>
-                <br class="projects-text056" />
-                <br class="projects-text057" />
-                <span class="projects-text058">Responsibilities</span>
+                <br class="projects-text058" />
+                <br class="projects-text059" />
+                <span class="projects-text060">Responsibilities</span>
                 <span>:</span>
-                <br class="projects-text060" />
-                <br class="projects-text061" />
-                <span>Implemented G-Map free API available.</span>
+                <br class="projects-text062" />
                 <br class="projects-text063" />
-                <br class="projects-text064" />
-                <span>Performed Unit Testing and Code Reviews.</span>
+                <span>Implemented G-Map free API available.</span>
+                <br class="projects-text065" />
                 <br class="projects-text066" />
-                <br class="projects-text067" />
-                <span>Used Azure DevOps.</span>
+                <span>Performed Unit Testing and Code Reviews.</span>
+                <br class="projects-text068" />
                 <br class="projects-text069" />
-                <br class="projects-text070" />
+                <span>Used Azure DevOps.</span>
+                <br class="projects-text071" />
+                <br class="projects-text072" />
                 <span>
                   Successfully implemented three-tiered architecture (MVC).
                 </span>
-                <br class="projects-text072" />
-                <br class="projects-text073" />
-                <span class="projects-text074">Environment</span>
+                <br class="projects-text074" />
+                <br class="projects-text075" />
+                <span class="projects-text076">Environment</span>
                 <span>
                   : C#, WindowsForms, Visual Studio.Net 2019, .Net Framework 4.6
                 </span>
@@ -269,19 +267,19 @@
             </div>
           </div>
         </div>
-        <div class="projects-container4">
+        <div>
           <div class="projects-project3">
             <div class="projects-about-12">
-              <span class="projects-text077">
-                <span class="projects-text078">Project Name</span>
+              <span class="projects-text079">
+                <span class="projects-text080">Project Name</span>
                 <span>– Test Cases Generator Tool</span>
                 <br />
                 <br />
                 <span></span>
-                <span class="projects-text083">Role</span>
+                <span class="projects-text085">Role</span>
                 <span>– Software Developer</span>
-                <br class="projects-text085" />
-                <br class="projects-text086" />
+                <br class="projects-text087" />
+                <br class="projects-text088" />
                 <span>
                   Description: The purpose to develop this tool was to minimize
                   the time required to write test cases for each release of the
@@ -290,27 +288,27 @@
                   per the inputs provided by the user and storing them in the
                   MySQL database.
                 </span>
-                <br class="projects-text088" />
-                <br class="projects-text089" />
-                <span class="projects-text090">Responsibilities</span>
+                <br class="projects-text090" />
+                <br class="projects-text091" />
+                <span class="projects-text092">Responsibilities</span>
                 <span>:</span>
-                <br class="projects-text092" />
-                <br class="projects-text093" />
-                <span>Designed and developed MySQL Server database.</span>
+                <br class="projects-text094" />
                 <br class="projects-text095" />
-                <br class="projects-text096" />
+                <span>Designed and developed MySQL Server database.</span>
+                <br class="projects-text097" />
+                <br class="projects-text098" />
                 <span>
                   Developed the installer for distributing the application
                   across the users.
                 </span>
-                <br class="projects-text098" />
-                <br class="projects-text099" />
+                <br class="projects-text100" />
+                <br class="projects-text101" />
                 <span>
                   Translated client requests into technical specifications.
                 </span>
-                <br class="projects-text101" />
-                <br class="projects-text102" />
-                <span class="projects-text103">Environment</span>
+                <br class="projects-text103" />
+                <br class="projects-text104" />
+                <span class="projects-text105">Environment</span>
                 <span>
                   : C#, Java, WindowsForms, Visual Studio 2019, .Net Framework
                   4.5, MySQL Server 5.8 Windows 10
@@ -321,97 +319,101 @@
           </div>
         </div>
         <div class="projects-section-separator2"></div>
-        <div class="thq-section-padding hero1-root-class-name">
-          <div class="hero1-max-width thq-section-max-width">
-            <h1 class="Section-Heading hero1-text">Hobby Projects</h1>
-            <div class="thq-flex-row hero1-container">
-              <div class="hero1-container1">
-                <img
-                  src="public/patchpannel_antenna-1500w.jpg"
-                  alt="PlaceholderImage1314"
-                  class="hero1-image1 thq-img-ratio-4-3"
-                />
-              </div>
-              <div class="hero1-column">
-                <div class="hero1-content">
-                  <h1 class="hero1-heading1">
-                    <span class="hero1-text1">Patch Panel Antenna</span>
-                    <br />
-                  </h1>
-                  <p class="thq-body-large hero1-content1">
-                    14 dBi panel outdoor antenna.&nbsp;Made from glass epoxy
-                    copper clad with 0.4u thickness.&nbsp;Power rating: 12 Watt
-                    (12 V, 1A). Connector: Mini PCI N-type micro
-                    connector.&nbsp;Operating Frequency: 2.4
-                    GHz.&nbsp;Compatible with Reltek router board.&nbsp;Radio
-                    Range: 800 M (tested with full power)
-                  </p>
+        <hero1-wrapper>
+          <div class="thq-section-padding hero1-root-class-name">
+            <div class="hero1-max-width thq-section-max-width">
+              <h1 class="Section-Heading hero1-text">Hobby Projects</h1>
+              <div class="thq-flex-row hero1-container">
+                <div class="hero1-container1">
+                  <img
+                    alt="PlaceholderImage1314"
+                    src="public/patchpannel_antenna-1500w.jpg"
+                    class="hero1-image1 thq-img-ratio-4-3"
+                  />
+                </div>
+                <div class="hero1-column">
+                  <div class="hero1-content">
+                    <h1 class="hero1-heading1">
+                      <span class="hero1-text1">Patch Panel Antenna</span>
+                      <br />
+                    </h1>
+                    <p class="thq-body-large hero1-content1">
+                      14 dBi panel outdoor antenna.&nbsp;Made from glass epoxy
+                      copper clad with 0.4u thickness.&nbsp;Power rating: 12
+                      Watt (12 V, 1A). Connector: Mini PCI N-type micro
+                      connector.&nbsp;Operating Frequency: 2.4
+                      GHz.&nbsp;Compatible with Reltek router board.&nbsp;Radio
+                      Range: 800 M (tested with full power)
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="thq-flex-row hero1-container2">
-              <div class="hero1-column1">
-                <div class="hero1-content1">
-                  <h1 class="thq-heading-1 hero1-heading11">
-                    Portable SMD array Light
-                  </h1>
-                  <p class="thq-body-large hero1-content11">
-                    Ultra portable emergency LED. LG lithium Polymer battery
-                    (3.7 out and 4.2 - 4.5 in) Battery life: 4-5 hours. Input 5V
-                    up to 1A. Full charge in 1 hour. Problem: Overheating due to
-                    less attenuation of power.
-                  </p>
+              <div class="thq-flex-row hero1-container2">
+                <div class="hero1-column1">
+                  <div class="hero1-content1">
+                    <h1 class="thq-heading-1 hero1-heading11">
+                      Portable SMD array Light
+                    </h1>
+                    <p class="thq-body-large hero1-content11">
+                      Ultra portable emergency LED. LG lithium Polymer battery
+                      (3.7 out and 4.2 - 4.5 in) Battery life: 4-5 hours. Input
+                      5V up to 1A. Full charge in 1 hour. Problem: Overheating
+                      due to less attenuation of power.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="hero1-container3">
-                <img
-                  alt="PlaceholderImage1314"
-                  src="public/light-1500w.jpg"
-                  class="hero1-image11 thq-img-ratio-4-3"
-                />
+                <div class="hero1-container3">
+                  <img
+                    alt="PlaceholderImage1314"
+                    src="public/light-1500w.jpg"
+                    class="hero1-image11 thq-img-ratio-4-3"
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </hero1-wrapper>
         <div class="projects-section-separator3"></div>
-        <div class="gallery5-gallery3 thq-section-padding">
-          <div class="gallery5-max-width thq-section-max-width">
-            <div class="gallery5-section-title">
-              <h2 class="gallery5-text"><span>Designs</span></h2>
-            </div>
-            <div class="gallery5-container">
-              <div class="gallery5-content">
-                <div class="gallery5-container1">
-                  <div class="gallery5-container2">
+        <gallery5-wrapper>
+          <div class="gallery5-gallery3 thq-section-padding">
+            <div class="gallery5-max-width thq-section-max-width">
+              <div class="gallery5-section-title">
+                <h2 class="projects-text Navbar-Link"><span>Designs</span></h2>
+              </div>
+              <div class="gallery5-container">
+                <div class="gallery5-content">
+                  <div class="projects-container1">
+                    <div class="projects-container2">
+                      <img
+                        alt="Award for Best IT Project"
+                        src="public/android%20app%20development-1500w.jpg"
+                        class="projects-image1"
+                      />
+                    </div>
                     <img
-                      alt="Award for Best IT Project"
-                      src="public/android%20app%20development-1500w.jpg"
-                      class="gallery5-image1 thq-img-ratio-4-3"
+                      alt="Award for Excellence in Requirement Engineering"
+                      src="public/circuit%20experts-1500w.jpg"
+                      class="gallery5-image2 thq-img-ratio-1-1"
                     />
                   </div>
-                  <img
-                    alt="Award for Excellence in Requirement Engineering"
-                    src="public/circuit%20experts-1500w.jpg"
-                    class="gallery5-image2 thq-img-ratio-1-1"
-                  />
-                </div>
-                <div class="gallery5-container3">
-                  <img
-                    alt="Recognition for Project Implementation"
-                    src="public/capmus%20point-1500w.jpg"
-                    class="gallery5-image3 thq-img-ratio-1-1"
-                  />
-                  <img
-                    alt="Certificate of Excellence in Software Architecture"
-                    loading="eager"
-                    src="public/somthing-1500w.jpg"
-                    class="gallery5-image4 thq-img-ratio-1-1"
-                  />
+                  <div class="projects-container3">
+                    <img
+                      alt="Recognition for Project Implementation"
+                      src="public/capmus%20point-1500w.jpg"
+                      class="gallery5-image3 thq-img-ratio-1-1"
+                    />
+                    <img
+                      alt="Certificate of Excellence in Software Architecture"
+                      src="public/somthing-1500w.jpg"
+                      loading="eager"
+                      class="gallery5-image4 thq-img-ratio-1-1"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </gallery5-wrapper>
         <div class="projects-footer-container">
           <div class="projects-footer">
             <div class="projects-social-links">
